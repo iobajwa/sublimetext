@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+
+void test_${1:some_pre_condition}_SHOULD_${2:do}_WHEN_${3:condition}(void)
+{
+	${4}
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>test</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c</scope>
+</snippet>

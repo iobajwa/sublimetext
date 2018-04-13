@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+
+#ifndef __${1:NAME}___
+#define __$1___
+
+
+#include "boski.h"
+
+// public functions
+$2
+
+
+#endif // __$1___
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newheaderfile</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Snippet for a new header file</description>
+</snippet>
